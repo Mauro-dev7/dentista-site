@@ -1,0 +1,77 @@
+/* RESET */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f1f5f9;
+  text-align: center;
+}
+
+/* CABEÇALHO */
+header {
+  background-color: #0ea5e9;
+  color: white;
+  padding: 30px 20px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 32px;
+}
+
+header p {
+  margin-top: 5px;
+  font-size: 18px;
+}
+
+/* IMAGEM */
+.perfil {
+  margin-top: 30px;
+}
+
+.perfil img {
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border: 5px solid white;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+/* BIOGRAFIA */
+.sobre {
+  margin: 30px auto;
+  max-width: 600px;
+}
+
+.sobre h2 {
+  color: #0ea5e9;
+}
+
+/* BOTÃO */
+.botao {
+  margin: 30px;
+}
+
+.botao button {
+  padding: 15px 30px;
+  font-size: 16px;
+  background-color: #0ea5e9;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.botao button:hover {
+  background-color: #0284c7;
+  transform: scale(1.05);
+}
+
+/* RODAPÉ */
+footer {
+  background-color: #0ea5e9;
+  color: white;
+  padding: 15px;
+  margin-top: 40px;
+}
